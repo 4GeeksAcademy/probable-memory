@@ -16,9 +16,14 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div id="card" class="container-fluid text-center"> Hello, Refresh page to draw a card </div>
-    <button onclick="generateRandomCard()" id="generateBtn" class="container d-flex justify-content-center">Click me</button>
-
+   <div class="container">
+    <div id="card" class="card"> 
+      <div id="topSuit" class="corner top-left"></div>
+      <div id="cardNumber" class="center"></div>
+      <div id="bottomSuit" class="corner bottom-right"></div>
+      </div>
+    <button onclick="generateRandomCard()" id="generateBtn" class="container-fluid">Click me to generate card</button>
+      </div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
