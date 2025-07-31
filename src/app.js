@@ -39,6 +39,8 @@ function generateRandomCard (){
 }
   document.querySelector("#generateBtn").addEventListener("click", generateRandomCard);
 
+  setInterval(generateRandomCard, 10000);
+
 };
 
 // const randomDec = Math.random()
